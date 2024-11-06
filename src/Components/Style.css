@@ -1,0 +1,128 @@
+/* App CSS */
+.app-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f7fc;
+  }
+  
+  .title {
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .filter-options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .filter-option {
+    margin-right: 20px;
+  }
+  
+  .environment-select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .job-list-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-list-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .job-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-item {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .job-title {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .job-type, .job-environment {
+    font-size: 16px;
+    color: #666;
+  }
+  
+/* JobList CSS */
+.job-item:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .job-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .job-type,
+  .job-environment {
+    font-size: 14px;
+    color: #888;
+  }
+
+  /* filters CSS */
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .filter-option input {
+    margin-right: 10px;
+  }
+  
+  .environment-select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
